@@ -3,4 +3,60 @@ body {
     padding: 0%;
     font-family: Verdana, Tahoma, sans-serif;
     text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#nav{
+    display: flex;
+    height: 75px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+#main {
+    display: flex;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.nav-li {
+    display: flex ;
+    gap: 20px;
+    margin: 10px 50px;
+    align-items: center;
+}
+
+#sec-home-1 {
+    width: 50%;
+    display: flex;
+}
+
+#sec-home-1 > img {
+    max-width: 90%;
+    margin: auto;
+}
+
+#sec-home-2 {
+    display: flex;
+    width: 50%;
+    color: black;
+}
+
+#sec-home-2 > div {
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
 }
