@@ -53,10 +53,31 @@ body {
     color: black;
 }
 
+div > button {
+    display: flex;
+}
+
 button {
     background-color: black;
     color: white;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 15px;
     border-radius: 15px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    margin-left: 10px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
