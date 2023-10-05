@@ -188,3 +188,9 @@ li > img {
 .hidden {
     display: none;
 }
+
+#judul-blog-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
