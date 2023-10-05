@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
 /* allpage */
 body {
     margin: 0%;
@@ -5,6 +9,7 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
     list-style: none;
     color: white;
+    overflow-x: hidden;
 }
 
 .nav{
@@ -140,5 +145,40 @@ li > img {
 #sec-blog-1 {
     color: black;
     text-align: center;
-    margin: 5px 200px;
+    margin: 30px 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#sec-blog-1 > h3 {
+    margin: 30px 100px ;
+}
+
+.konten-blog > img {
+    height: 300px;
+}
+
+.konten-blog {
+    display: flex;
+    gap: 20px;
+}
+
+.konten-blog > p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+#klikLanjut {
+    color: blue;
+    cursor: pointer;
+}
+
+#klikKembali {
+    color: blue;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
