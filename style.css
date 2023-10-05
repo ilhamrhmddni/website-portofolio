@@ -1,20 +1,20 @@
+/* allpage */
 body {
     margin: 0%;
     padding: 0%;
     font-family: Verdana, Tahoma, sans-serif;
-    text-decoration: none;
     list-style: none;
     color: white;
 }
 
-#nav{
+.nav{
     display: flex;
     height: 75px;
     background-color: black;
     justify-content: space-between;
 }
 
-#main {
+.main {
     display: flex;
 }
 
@@ -22,15 +22,22 @@ body {
     display: flex;
     align-items: center;
     margin: 0px 50px;
+    font-weight: bold;
 }
 
 .nav-li {
     display: flex ;
-    gap: 20px;
+    gap: 40px;
     margin: 10px 50px;
     align-items: center;
 }
 
+.nav-li > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Homepage */
 #sec-home-1 {
     width: 50%;
     display: flex;
@@ -80,4 +87,58 @@ button:hover {
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+/* Aboutpage */
+#sec-about{
+    color: black;
+    text-align: center;
+    margin: 5px 200px;
+}
+
+#sec-about-1 {
+    color: black;
+}
+
+#arc-about-2, #arc-about-3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.boldd {
+    font-weight: bolder;
+}
+
+/* Skillspage */
+#sec-skills-1, #sec-skills-2 {
+    text-align: center;
+    margin: 95px auto;
+    justify-content: center;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 10% ;
+}
+
+.logo-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+li > img {
+    width: 100px;
+    margin: 10px;
+}
+
+.logo-skills > li {
+    flex: 1;
+}
+
+/* Blogpage */
+#sec-blog-1 {
+    color: black;
+    text-align: center;
+    margin: 5px 200px;
 }
